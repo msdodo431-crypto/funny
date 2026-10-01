@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Galaxy S26 Ultra vs iPhone 17 Pro — Сравнение флагманов 2026</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            blue: '#0381fe',
+                            darkBlue: '#0057b8',
+                            lightBg: '#f8fafc',
+                            cardBg: '#ffffff',
+                            darkBg: '#0f172a',
+                            darkCard: '#1e293b'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .fade-in {
+            animation: fadeIn 0.25s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-blue selection:text-white min-h-screen flex flex-col">
+
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-2.5 font-extrabold text-slate-900 tracking-tight text-lg">
+                <span class="w-8 h-8 rounded-lg bg-brand-blue text-white flex items-center justify-center text-sm">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                </span>
+                <span>Galaxy S26 <span class="text-brand-blue">vs</span> iPhone 17</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+                <a href="#advantages" class="hover:text-brand-blue transition-colors">Преимущества</a>
+                <a href="#comparison" class="hover:text-brand-blue transition-colors">Сравнение характеристик</a>
+                <a href="#checklist" class="hover:text-brand-blue transition-colors">Чек-лист удобств</a>
+            </nav>
+
+            <a href="#comparison" class="px-4 py-2 rounded-xl bg-slate-900 hover:bg-brand-blue text-white text-xs font-semibold transition-all">
+                Сравнить S26 Ultra
+            </a>
+        </div>
+    </header>
+
+    <section class="py-16 sm:py-24 bg-white border-b border-slate-200/60">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+            
+            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-brand-blue font-semibold text-xs mb-6">
+                <i class="fa-solid fa-sparkles"></i> Флагманы 2026 года
+            </span>
+
+            <h1 class="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">
+                Почему <span class="text-brand-blue">Samsung Galaxy S26 Ultra</span> превосходит iPhone 17 Pro
+            </h1>
+
+            <p class="text-base sm:text-lg text-slate-600 font-normal leading-relaxed max-w-2xl mx-auto mb-8">
+                Простой и объективный разбор ключевых технологий: от аппаратного экрана приватности <strong class="text-slate-900">Privacy Display</strong> и стилуса <strong class="text-slate-900">S Pen</strong> до оптики с зумом 100x и быстрой зарядки 60W.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+                <a href="#advantages" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-brand-blue hover:bg-brand-darkBlue text-white font-semibold text-sm transition-all shadow-sm flex items-center justify-center gap-2">
+                    <span>Смотреть главные отличия</span>
+                    <i class="fa-solid fa-arrow-down text-xs"></i>
+                </a>
+                <a href="#comparison" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold text-sm transition-all flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-arrows-left-right text-xs"></i>
+                    <span>Таблица сравнения</span>
+                </a>
+            </div>
+
+            <!-- Key metrics row -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-12 pt-8 border-t border-slate-100 text-left">
+                <div class="p-3">
+                    <div class="text-xl font-bold text-slate-900">Privacy Screen</div>
+                    <div class="text-xs text-slate-500 mt-0.5">Встроенная защита сбоку</div>
+                </div>
+                <div class="p-3">
+                    <div class="text-xl font-bold text-slate-900">200 МП (F1.4)</div>
+                    <div class="text-xs text-slate-500 mt-0.5">Сверхсветосильная оптика</div>
+                </div>
+                <div class="p-3">
+                    <div class="text-xl font-bold text-slate-900">60W Fast</div>
+                    <div class="text-xs text-slate-500 mt-0.5">75% зарядки за 30 минут</div>
+                </div>
+                <div class="p-3">
+                    <div class="text-xl font-bold text-slate-900">S Pen Внутри</div>
+                    <div class="text-xs text-slate-500 mt-0.5">Встроен в корпус</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="advantages" class="py-16 bg-slate-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6">
+            
+            <div class="text-center mb-10">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">Ключевые преимущества S26 Ultra</h2>
+                <p class="text-sm text-slate-500 mt-2">Выберите категорию, чтобы посмотреть технологический перевес Samsung над Apple</p>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="flex flex-wrap justify-center gap-2 mb-8" id="filter-tabs">
+                <button onclick="filterCategory('all')" class="tab-btn active px-4 py-2 rounded-xl text-xs font-semibold bg-brand-blue text-white shadow-sm transition-all" data-cat="all">
+                    Все технологии
+                </button>
+                <button onclick="filterCategory('screen')" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition-all" data-cat="screen">
+                    <i class="fa-solid fa-display mr-1.5 text-brand-blue"></i>Дисплей
+                </button>
+                <button onclick="filterCategory('camera')" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition-all" data-cat="camera">
+                    <i class="fa-solid fa-camera mr-1.5 text-brand-blue"></i>Камера
+                </button>
+                <button onclick="filterCategory('ai')" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition-all" data-cat="ai">
+                    <i class="fa-solid fa-brain mr-1.5 text-brand-blue"></i>Galaxy AI
+                </button>
+                <button onclick="filterCategory('battery')" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition-all" data-cat="battery">
+                    <i class="fa-solid fa-bolt mr-1.5 text-brand-blue"></i>Зарядка
+                </button>
+                <button onclick="filterCategory('prod')" class="tab-btn px-4 py-2 rounded-xl text-xs font-semibold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition-all" data-cat="prod">
+                    <i class="fa-solid fa-pen-ruler mr-1.5 text-brand-blue"></i>S Pen & DeX
+                </button>
+            </div>
+
+            <!-- Grid Cards Container -->
+            <div id="advantages-grid" class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <!-- Cards Injected via JS -->
+            </div>
+
+        </div>
+    </section>
+
+    <section id="comparison" class="py-16 bg-white border-t border-slate-200/80">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6">
+            
+            <div class="text-center mb-12">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">Сравнение лицом к лицу</h2>
+                <p class="text-sm text-slate-500 mt-2">Прямое сопоставление характеристик флагманов 2026 года</p>
+            </div>
+
+            <!-- Side-by-side Table -->
+            <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+                
+                <!-- Table Header -->
+                <div class="grid grid-cols-3 bg-slate-900 text-white p-4 sm:p-5 font-bold text-xs sm:text-sm">
+                    <div class="text-slate-400">Характеристика</div>
+                    <div class="text-brand-blue flex items-center gap-1.5">
+                        <i class="fa-solid fa-circle-check text-xs"></i>
+                        <span>Galaxy S26 Ultra</span>
+                    </div>
+                    <div class="text-slate-300">iPhone 17 Pro Max</div>
+                </div>
+
+                <!-- Specs Rows -->
+                <div class="divide-y divide-slate-200 text-xs sm:text-sm">
+                    
+                    <div class="grid grid-cols-3 p-4 items-center bg-white">
+                        <div class="font-semibold text-slate-700">Экран & Защита</div>
+                        <div class="font-medium text-slate-900">6.9" Dynamic AMOLED, Privacy Display, Anti-glare</div>
+                        <div class="text-slate-500">6.9" Super Retina XDR, Ceramic Shield (без блокировки обзора)</div>
+                    </div>
+
+                    <div class="grid grid-cols-3 p-4 items-center bg-slate-50/50">
+                        <div class="font-semibold text-slate-700">Главная Камера</div>
+                        <div class="font-medium text-slate-900">200 МП (F1.4 Сверхсветосила) + ProVisual 3.0</div>
+                        <div class="text-slate-500">48 МП (F1.78 Диафрагма)</div>
+                    </div>
+
+                    <div class="grid grid-cols-3 p-4 items-center bg-white">
+                        <div class="font-semibold text-slate-700">Оптический & Цифровой Зум</div>
+                        <div class="font-medium text-slate-900">100x Space Zoom (5x/3x Оптика)</div>
+                        <div class="text-slate-500">Макс 25x цифровой зум (4x Оптика)</div>
+                    </div>
+
+                    <div class="grid grid-cols-3 p-4 items-center bg-slate-50/50">
+                        <div class="font-semibold text-slate-700">Скорость Зарядки</div>
+                        <div class="font-medium text-slate-900">60W Быстрая зарядка (75% за 30 мин)</div>
+                        <div class="text-slate-500">Около 27W (50% за 30 мин)</div>
+                    </div>
+
+                    <div class="grid grid-cols-3 p-4 items-center bg-white">
+                        <div class="font-semibold text-slate-700">Реверсивная Зарядка</div>
+                        <div class="font-medium text-slate-900">Wireless PowerShare (заряжает часы/наушники)</div>
+                        <div class="text-slate-500">Отсутствует беспроводная отдаче энергии</div>
+                    </div>
+
+                    <div class="grid grid-cols-3 p-4 items-center bg-slate-50/50">
+                        <div class="font-semibold text-slate-700">Встроенный Стилус</div>
+                        <div class="font-medium text-brand-blue font-bold">S Pen входит в комплект и спрятан в корпус</div>
+                        <div class="text-slate-500">Не поддерживается</div>
+                    </div>
+
+                    <div class="grid grid-cols-3 p-4 items-center bg-white">
+                        <div class="font-semibold text-slate-700">ИИ Искусственный Интеллект</div>
+                        <div class="font-medium text-slate-900">Galaxy AI 3.0 (Автономный перевод, Circle to Search)</div>
+                        <div class="text-slate-500">Apple Intelligence (Зависит от облака)</div>
+                    </div>
+
+                    <div class="grid grid-cols-3 p-4 items-center bg-slate-50/50">
+                        <div class="font-semibold text-slate-700">Режим Компьютера</div>
+                        <div class="font-medium text-slate-900">Samsung DeX (подключение к монитору)</div>
+                        <div class="text-slate-500">Отсутствует</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="checklist" class="py-16 bg-slate-50 border-t border-slate-200/80">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            
+            <div class="text-center mb-10">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">Чек-лист удобств Samsung</h2>
+                <p class="text-sm text-slate-500 mt-2">Мелочи, из которых складывается ежедневный комфорт</p>
+            </div>
+
+            <div class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-4 shadow-sm">
+                
+                <div class="flex items-start gap-3.5 pb-4 border-b border-slate-100">
+                    <div class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-slate-900 font-bold text-sm">Приватность в общественном транспорте и офисе</h4>
+                        <p class="text-slate-500 text-xs mt-0.5">Включите встроенный режим Privacy Display — окружающие под углом увидят лишь темный экран.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-3.5 pb-4 border-b border-slate-100">
+                    <div class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-slate-900 font-bold text-sm">Заряжайте наушники прямо от телефона</h4>
+                        <p class="text-slate-500 text-xs mt-0.5">Положите кейс Galaxy Buds или AirPods на спинку S26 Ultra — функция PowerShare выручит в поездке.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-3.5 pb-4 border-b border-slate-100">
+                    <div class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-slate-900 font-bold text-sm">Быстрые заметки и подпись документов</h4>
+                        <p class="text-slate-500 text-xs mt-0.5">Достаньте S Pen и пишите прямо на заблокированном экране без поиска сторонних приложений.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-3.5">
+                    <div class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-slate-900 font-bold text-sm">Удобная передача файлов на любой ПК</h4>
+                        <p class="text-slate-500 text-xs mt-0.5">Подключайте S26 Ultra к Windows или Mac как обычную флешку без жестких рамок iTunes/AirDrop.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="mt-auto bg-slate-900 text-slate-400 py-10 border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+            <div class="flex items-center gap-2 font-bold text-white">
+                <span class="w-6 h-6 rounded bg-brand-blue text-white flex items-center justify-center text-xs">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                </span>
+                <span>Galaxy S26 Ultra vs iPhone 17 Pro</span>
+            </div>
+            <p class="text-slate-500 text-center sm:text-right">
+                © 2026 Информационное сравнение флагманов.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Data for advantages cards
+        const advantagesData = [
+            {
+                category: 'screen',
+                title: 'Privacy Display & Антиблик Gorilla Armor 2',
+                desc: 'Экран S26 Ultra гасит 75% отражений солнца и имеет встроенный электронный слой скрытия обзора сбоку.',
+                vs: 'У iPhone 17 Pro нет функции Privacy Display, экран сильнее отсвечивает.',
+                tag: 'Экран'
+            },
+            {
+                category: 'camera',
+                title: 'Камера 200 МП F1.4 + 100x Space Zoom',
+                desc: 'Диафрагма F1.4 улавливает рекордный объем света ночью. Зум 100x позволяет снимать удаленные объекты.',
+                vs: 'iPhone 17 Pro ограничен зумом 25x и диафрагмой F1.78.',
+                tag: 'Камера'
+            },
+            {
+                category: 'ai',
+                title: 'Galaxy AI 3.0 без привязки к интернету',
+                desc: 'Синхронный перевод голосовых вызовов, интеллектуальный поиск Circle to Search и ретушь фото работают на самом устройстве.',
+                vs: 'Apple Intelligence часть операций выполняет с задержками в облаке.',
+                tag: 'Искусственный интеллект'
+            },
+            {
+                category: 'battery',
+                title: 'Зарядка 60W + Обратная Зарядка',
+                desc: 'Быстрый заряд до 75% за полчаса. Возможность подзарядить любой гаджет просто приложив его к спинке.',
+                vs: 'iPhone 17 Pro заряжается медленнее и не отдает заряд по Qi.',
+                tag: 'Батарея'
+            },
+            {
+                category: 'prod',
+                title: 'Встроенный стилус S Pen в корпусе',
+                desc: 'Встроенное перо для точности редактирования, рукописного ввода, вырезки объектов и снимков кадра дистанционно.',
+                vs: 'iPhone не поддерживает Apple Pencil или другие стилусы.',
+                tag: 'Продуктивность'
+            },
+            {
+                category: 'prod',
+                title: 'Режим ПК — Samsung DeX',
+                desc: 'Подключите смартфон к монитору или ТВ по Wi-Fi / HDMI и получите полноценный рабочий стол как на ПК.',
+                vs: 'iPhone умеет только дублировать экран без интерфейса ПК.',
+                tag: 'Продуктивность'
+            }
+        ];
+
+        function filterCategory(cat) {
+            // Update Tab styles
+            document.querySelectorAll('#filter-tabs .tab-btn').forEach(btn => {
+                if (btn.dataset.cat === cat) {
+                    btn.className = "tab-btn active px-4 py-2 rounded-xl text-xs font-semibold bg-brand-blue text-white shadow-sm transition-all";
+                } else {
+                    btn.className = "tab-btn px-4 py-2 rounded-xl text-xs font-semibold bg-white border border-slate-200 text-slate-600 hover:bg-slate-100 transition-all";
+                }
+            });
+
+            // Filter items
+            const grid = document.getElementById('advantages-grid');
+            const filtered = cat === 'all' ? advantagesData : advantagesData.filter(item => item.category === cat);
+
+            grid.innerHTML = filtered.map(item => `
+                <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between hover:border-blue-300 transition-all fade-in shadow-sm">
+                    <div>
+                        <div class="inline-block px-2.5 py-1 rounded-md bg-blue-50 text-brand-blue text-[11px] font-bold mb-3">
+                            ${item.tag}
+                        </div>
+                        <h3 class="text-base font-bold text-slate-900 mb-2">${item.title}</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">${item.desc}</p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-100 text-xs text-slate-500 flex items-start gap-2">
+                        <i class="fa-solid fa-circle-minus text-rose-400 mt-0.5"></i>
+                        <span><strong>У iPhone 17 Pro:</strong> ${item.vs}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Initialize on load
+        window.onload = function() {
+            filterCategory('all');
+        };
+    </script>
+</body>
+</html>
